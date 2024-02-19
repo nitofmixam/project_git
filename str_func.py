@@ -7,3 +7,4 @@ def capitalize_words(input_str):
     """Делает заглавными первые буквы каждого слова в строке поступившей на вход"""
     return ' '.join(word.capitalize()
                     for word in input_str.split())
+
